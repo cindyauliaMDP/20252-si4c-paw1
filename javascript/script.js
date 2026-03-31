@@ -8,5 +8,5 @@ function kirim(){
     //tampilkan nama ke ul id=list-pesan
     // document.getElementById('list-pesan').innerHTML= "<li>"+nama+"</li>";
 
-    document.getElementById('list-pesan').innerHTML += `<li>${nama}</li>`;
+    document.getElementById('list-pesan').innerHTML += `<tr><td>${nama}</td><td>${Saran}</td></tr>`;
 }
